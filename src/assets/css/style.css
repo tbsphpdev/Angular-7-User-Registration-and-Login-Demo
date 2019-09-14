@@ -1,0 +1,64 @@
+body {
+    background-color: #ffffff;
+    font-family: Calibri;
+}
+
+a {
+    cursor: pointer
+}
+
+ng-component {
+    width: 100%;
+}
+
+alert {
+    margin: 20px auto 0 auto;
+}
+
+.bg-TBS-theme {
+    background-color: #5ac6c6 !important;
+}
+
+.border-TBS-theme {
+    border: 2px solid #5ac6c6 !important;
+}
+
+.login-register {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+a.TBS-link {
+    color: #17a2b8 !important;
+    font-weight: 600;
+}
+
+a.TBS-link-footer {
+    color: #000000 !important;
+    font-weight: 600;
+}
+
+input.form-control.TBS-Custom-Input:focus {
+    border-color: #5ac6c6;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(90, 198, 198, .25);
+}
+
+.TBS-Nav-Link {
+    color: #000000;
+    font-weight: 600;
+}
+
+.Font-16 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.TBS-Fix-Footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

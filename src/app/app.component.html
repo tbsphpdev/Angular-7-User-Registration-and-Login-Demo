@@ -1,0 +1,23 @@
+<!-- nav -->
+<nav class="navbar navbar-expand bg-TBS-theme" *ngIf="currentUser">
+    <div class="navbar-nav">
+        <a class="nav-item nav-link TBS-Nav-Link" routerLink="/">Home</a>
+        <a class="nav-item nav-link TBS-Nav-Link" (click)="logout()">Logout</a>
+    </div>
+</nav>
+
+<!-- main app container -->
+<div class="container">
+    <div class="row">
+        <!-- <div class="col-sm-6 offset-sm-3"> -->
+        <alert></alert>
+        <router-outlet></router-outlet>
+        <!-- </div> -->
+    </div>
+</div>
+
+<footer class="TBS-Fix-Footer bg-TBS-theme" *ngIf="currentUser">
+    <div class="p-3 text-center">
+        <a href="http://techcronus.com" target="_blank" class="TBS-link-footer">Techcronus Business Solutions Pvt. Ltd.</a>
+    </div>
+</footer>
